@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border = 1>
+        <caption>
+            <!--테이블의 이름 설정: caption-->
+            HTML 연습
+        </caption>
+        <!--tr: 줄을 생성 th: 아이템 생성 td: 아이템 추가 -->
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <!--rowspan은 세로를 합친다. -->
+            <td  rowspan="2">rowspan 2줄</td>
+            <td>2
+                <ul>
+                    <li>아메리카노</li>
+                    <li>카푸치노</li>
+                </ul>
+            </td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <th>3</th>
+        </tr>
+        <tr>
+            <!--colspan은 가로를 합쳐준다.-->
+            <td colspan="3">colspan 3개</td>
+        </tr>
+    </table>
+
+    <iframe src="./inner.html" width="500px" height="300px"></iframe>
+
+    <div style="border: 3px solid red; width: 500px;">
+        <h2>사자</h2>
+        <p>
+            사자는 아프리카에 살며
+            강한 다리와 턱,
+            <span style="color: red;">송곳니</span>
+            지니고 있다.
+        </p>
+    </div>
+    <div style="height:20px; background-color: aqua; width: 500px;"></div>
+    <div style="height:20px; background-color: yellow; width: 500px;">
+        <form>
+        전화번호: <input type='tel' name="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"
+        title="####-####-####">
+        <input type="submit" />
+        </form>
+    </div>
+
+    
+</body>
+</html>

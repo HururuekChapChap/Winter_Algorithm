@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inner Html 페이지</h1>
+    <img src="./스크린샷 2019-12-26 오후 9.23.03.png" width="50%" height="50%" />
+
+    <form>
+        <fieldset>
+            <legend>카드정보입력</legend>
+            
+             <div style="background-color: yellow;" >
+               <fieldset>
+                    <legend>카드 타입</legend>
+                    1.<input type="radio" name="card" value="visa">visa<br>
+                    2.<input type="radio" name="card" value="master">master<br>
+                    3.<input type="radio" name="card" value="paypal">paypar<br>
+                </fieldset>
+            </div>
+
+            2. 카드 번호 <input type='text' name="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"
+            title="####-####-####"> <br>
+
+            3. CVC 번호 <input type="text" name="cvc" pattern="[0-9]{4}"><br>
+            4. 사용자 이름<input type="text" name="name" placeholder="카드 상의 이름"><br>
+
+            <input type="submit" value="send">
+        </fieldset>
+    </form>
+</body>
+</html>
