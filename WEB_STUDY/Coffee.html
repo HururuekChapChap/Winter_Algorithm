@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Programming 20.01.07</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+  <style>
+      #header{
+          text-align: center;
+          color:khaki;
+          text-shadow: 5px 5px 5px;
+      }
+      tr{
+          text-align: center;
+          font-family: fantasy;
+          color:khaki;
+      }
+
+      td{
+          padding-top: 10px;
+      }
+
+      body{
+          background-image: url("./Coffee_IMG/Background.png");
+      }
+
+      
+
+      div.main{
+        margin-top: 20px;
+      }
+
+
+      div.top_navi{
+          
+        border:5px double red;
+        border-left: none;
+        border-right: none;
+        height: 60px;
+        width: 90%;
+        margin-left: 50px;
+        
+      }
+
+      div.top_navi ul li{
+        list-style: none;
+        float: left;
+        margin-left: 180px;
+      }
+
+      div.top_navi ul li a{
+          color: white;
+          font-family: cursive;
+          font-size: 22px;
+          font-weight: bold;
+          text-decoration: none;
+      }
+
+      div.top_navi ul li a.check{
+          color: burlywood;
+          text-decoration: underline;
+      }
+     
+      div.top_navi ul li a:hover{
+          color:blanchedalmond;
+      }
+
+
+  </style>
+
+</head>
+
+<body>
+    <h1 id="header">Web Coffee Menu</h1>
+
+    <div class="top_navi">
+        <ul>
+            <li><a href="Intro.html">Intro</a></li>
+            <li><a class="check">Menu</a></li>
+            <li><a>Convenient</a></li>
+            <li><a>Directions</a></li>
+            </ul>
+    </div>
+    
+
+
+
+    <div class="main">
+    <table border="1" width="700" align="center" >
+        <th>사진</th>
+        <th>상품명</th>
+        <th>가격</th>
+
+        <tr>
+            <td><img src="./Coffee_IMG/Americano.png" width="150" height="150"></td>
+            <td>Americano</td>
+            <td>₩900</td>
+        </tr>
+
+        <tr>
+            <td><img src="./Coffee_IMG/ICE_Choco.png" width="150" height="150"></td>
+            <td>Ice Choco</td>
+            <td>₩1200</td>
+        </tr>
+
+        <tr>
+            <td><img src="./Coffee_IMG/MilkTea.png" width="150" height="150"></td>
+            <td>Mike Tea</td>
+            <td>₩1500</td>
+        </tr>
+
+        <tr>
+            <td><img src="./Coffee_IMG/Shake.png" width="150" height="150"></td>
+            <td>Vanila Shake</td>
+            <td>₩1500</td>
+        </tr>
+
+    </table>
+
+    </div>
+
+
+
+</body>
+</html>
